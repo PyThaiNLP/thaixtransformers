@@ -1,4 +1,4 @@
-def Tokenizer(model_name,**kwag):
+def Tokenizer(model_name,**kwargs):
     if "wangchanberta-base-att-spm-uncased" in model_name:
         from .roberta import WangchanbertaTokenizer as tokenzer
     elif "wangchanberta-base-wiki-newmm" in model_name:
@@ -11,4 +11,4 @@ def Tokenizer(model_name,**kwag):
         from .roberta import ThaiRobertaTokenizer as tokenzer
     else:
         from transformers import AutoTokenizer as tokenzer
-    return tokenzer.from_pretrained(model_name,**kwag)
+    return tokenzer.from_pretrained(model_name,**kwargs)
