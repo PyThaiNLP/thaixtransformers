@@ -1,9 +1,9 @@
 # ThaiXtransformers
 
-Google colab: [Click](https://colab.research.google.com/github/PyThaiNLP/thaixtransformers/blob/main/notebooks/wangchanberta_getting_started_aireseach.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PyThaiNLP/thaixtransformers/blob/main/notebooks/wangchanberta_getting_started_aireseach.ipynb]
 
 
-Use Pretraining RoBERTa based Thai language models from VISTEC-depa AI Research Institute of Thailand.
+**Use Pretraining RoBERTa based Thai language models from VISTEC-depa AI Research Institute of Thailand.**
 
 Fork from [vistec-AI/thai2transformers](https://github.com/vistec-AI/thai2transformers).
 
