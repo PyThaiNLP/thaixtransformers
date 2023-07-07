@@ -17,7 +17,7 @@ Paper: [WangchanBERTa: Pretraining transformer-based Thai Language Models](https
 
 > pip install thaixtransformers
 
-## Uages
+## Usage
 
 ### Tokenizer
 
